@@ -1,0 +1,1152 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    display: flex;
+    background-color: #673de6;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+
+
+
+
+
+}
+
+nav {
+    display: flex;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+#logo img {
+    width: 180px;
+    filter: brightness(0) invert(1);
+}
+
+#logo-1 img {
+
+    width: 32px;
+    height: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 4px;
+
+
+}
+
+
+
+#logo-1 {
+    display: flex;
+    margin-top: 22px;
+}
+
+#logo-1 p {
+    margin-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+nav li {
+    list-style: none;
+    margin: 0px 7px;
+    padding: 30px 8px;
+    ;
+
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+#logo {
+    padding: 15px 12px;
+}
+
+
+#login a {
+    border: 2px solid #ffffff;
+    padding: 15px 25px;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 3px white; */
+}
+
+
+
+#login a:hover {
+    background-color: #6837fc;
+}
+
+header::before {
+    background-color: #673de6;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    content: "";
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    height: 680px;
+
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 1.5rem;
+    /* border: 2px solid red; */
+    padding: 80px 0px;
+}
+
+
+.main-content {
+    /* border: 2px solid red; */
+    padding: 80px 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-img {
+    /* border: 2px solid red; */
+    padding-right: 40px;
+
+}
+
+
+.headline {
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+
+}
+
+.sub-headline {
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+    font-size: 1rem;
+
+}
+
+.start {
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+    padding: 10px 15px;
+
+}
+
+.start button {
+    background-color: #fc5185;
+    border: 2px solid #fc5185;
+    color: white;
+    padding: 12px 90px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.refund {
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+    font-size: 16px;
+    padding: 25px 20px;
+}
+
+
+#main img {
+    width: 650px;
+}
+
+
+.rating-container {
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 0.8;
+
+}
+
+.rating-box {
+
+    /* border: 2px solid red; */
+    padding: 5px 50px;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+#rating-img-1 img{
+    width: 200px;
+}
+
+
+
+
+.rating-img img {
+
+    width: 150px;
+}
+
+.rating-company img {
+    width: 150px;
+    /* height: 80px; */
+    padding-bottom: 0px;
+
+}
+
+.reveiw-text {
+    display: flex;
+    padding: 10px 0px;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+}
+
+.reveiw-text p {
+    padding: 0px 2px;
+}
+
+.rating-number {
+    font-weight: bold;
+}
+
+#rating-company-2 img {
+    padding-top: 22px;
+    padding-bottom: 29px;
+    width: 100px;
+    
+
+}
+
+#rating-company-3 img {
+    padding-top: 25px;
+    padding-bottom: 34px;
+
+}
+
+#rating-company-4 img {
+    padding-top: 20px;
+    padding-bottom: 34px;
+
+}
+
+#plan {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0fr 0fr 0fr;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    border-top: 1px solid #727586;
+    border-left: 1px solid #727586;
+    border-right: 1px solid #727586;
+    margin-top: 100px;
+
+}
+
+.plan-box-highlight {
+    font-weight: bold;
+}
+
+
+
+.plan-box {
+
+    padding: 30px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+
+.plan-box p {
+    padding: 10px 0px;
+}
+
+#plan-box-2 {
+
+    text-align: center;
+    border-left: 1px solid #727586;
+}
+
+#best-web {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#offer-1 {
+    color: #5025d1;
+    background-color: #ebe4ff;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#normal-price {
+    color: #727586;
+    text-decoration: line-through;
+}
+
+.offer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.offer p {
+    padding: 0px 8px;
+}
+
+.offer-price-box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+    color: #2f1c6a;
+}
+
+
+
+#offer-price {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#offer-price-ruppee {
+    font-size: 1.2rem;
+    margin-top: 16px;
+}
+
+#offer-plan-validty {
+    font-size: 1.5rem;
+    margin-top: 16px;
+}
+
+
+
+
+#add-to-cart {
+    background-color: #5025d1;
+    color: white;
+    border: #5025d1;
+    padding: 15px 90px;
+    border-radius: 10px;
+
+}
+
+
+#renew-price {
+    color: #727586;
+    margin-top: 8px;
+}
+
+
+#plan-box-1,
+#plan-box-3 {
+    padding-left: 50px;
+    display: flex;
+
+}
+
+
+#plan-box-3 {
+    border-left: 1px solid #727586;
+}
+
+.question {
+    font-size: 20px;
+}
+
+#question-1 {
+
+    margin-left: 40px;
+    margin-top: 3px;
+}
+
+#question-2 {
+
+    margin-left: 40px;
+
+
+}
+
+.features {
+    text-align: center;
+    /* border-bottom: 1px solid #727586;
+    border-left: 1px solid #727586;
+    border-right: 1px solid #727586; */
+    border: 1px solid #727586;
+    padding: 20px 0px;
+    color: #5520f4;
+    font-weight: bold;
+    font-size: 17px;
+    margin-left: 9px;
+    margin-right: 9px;
+    /* margin-top: 20px; */
+
+}
+
+
+#solution {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+
+
+
+.solution-img img {
+    width: 552px;
+
+}
+
+.solution-img {
+    padding: 60px 0px;
+}
+
+.solutions p {
+
+    padding: 15px 4px;
+
+}
+
+.solutions {
+    padding: 60px 70px;
+}
+
+.solutions h1 {
+
+    padding-bottom: 50px;
+    padding: 30px 0px;
+    font-size: 2rem;
+    color: #2f1c6a;
+
+}
+
+.solutions ion-icon {
+
+    margin-left: 10px;
+    font-size: 16px;
+    font-size: 20px;
+}
+
+#trustpilot {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 25px;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+
+
+.trustpilot-box {
+    /* border: 2px solid red; */
+    padding: 0px 25px;
+    background-color: #fafbff;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.trustpilot-box img {
+    width: 224px;
+}
+
+
+#trustpilot-rating-3 img {
+    padding-top: 20px;
+
+
+}
+
+.trustpilot-rating {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trustpilot-rating img {
+    width: 130px;
+    height: 24px;
+    padding-top: 20px;
+}
+
+.trustpilot-rating a {
+    color: #2f1c6a;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.trustpilot-logo {
+    padding-bottom: 15px;
+}
+
+
+
+
+.speed {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.speed img {
+    width: 550px;
+    padding: 50px 30px;
+}
+
+.speed-img {
+    padding-left: 20px;
+}
+
+.speed-text {
+    padding: 90px 80px;
+
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    color: #2f1c6a;
+    line-height: 25px;
+    /* line-height: 60px; */
+}
+
+
+.speed-text p {
+    padding: 20px 0px;
+
+
+}
+
+
+.speed-text h1 {
+    font-size: 2.2rem;
+    padding-bottom: 10px;
+}
+
+#speed-text-box {
+    display: flex;
+
+}
+
+
+#company-reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 60px;
+    /* border: 2px solid red; */
+
+}
+
+.company-review-box {
+    /* border: 2px solid red; */
+    background-color: #f4f5ff;
+    padding: 30px 20px;
+    margin: 0px 5px;
+    align-items: center;
+    justify-content: center;
+    line-height: 24px;
+
+}
+
+.company-review-logo img {
+    width: 224px;
+    padding-bottom: 15px;
+}
+
+#team {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding: 20px 0px;
+    padding-top: 120px;
+
+}
+
+.team-box {
+    /* border: 2px solid red; */
+    margin: 0px 8px;
+
+}
+
+.team-img img {
+    width: 525px;
+    /* padding-left: 15px; */
+}
+
+.team-text {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 5px 60px;
+    line-height: 20px;
+
+}
+
+.team-text p {
+    padding: 20px 0px;
+}
+
+#team h2 {
+    /* text-align: center; */
+    padding: 15px 60px;
+    margin-top: 10px;
+
+    color: #2f1c6a;
+    font-size: 2.0rem;
+}
+
+.team-text-1 {
+    display: flex;
+}
+
+
+
+
+
+
+#trustpilot-1 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 25px;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+
+
+.trustpilot-box-1 {
+    /* border: 2px solid red; */
+    padding: 0px 25px;
+    background-color: #fafbff;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.trustpilot-box-1 img {
+    width: 224px;
+}
+
+.trustpilot-rating-1 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trustpilot-rating-1 img {
+    width: 130px;
+    height: 24px;
+    padding-top: 20px;
+}
+
+.trustpilot-rating-1 a {
+    color: #2f1c6a;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.trustpilot-logo-1 {
+    padding-bottom: 15px;
+}
+
+.user-box {
+    text-align: center;
+
+}
+
+.user-box h1 {
+    font-size: 2.2rem;
+    color: #2f1c6a;
+    padding-bottom: 30px;
+}
+
+.user-box button {
+    background-color: #673de6;
+    border: #673de6;
+    color: white;
+    font-weight: bold;
+    padding: 17px 90px;
+    border-radius: 5px;
+
+}
+
+.user-box p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+#features-container {
+
+    background-color: #673de6;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 10px;
+    padding-top: 110px;
+
+
+}
+
+.feature-box {
+    /* border: 2px solid red; */
+    color: white;
+}
+
+.feature-box-img img {
+    width: 552px;
+}
+
+.feature-box-text-1 {
+    display: flex;
+}
+
+.feature-box-text-1 p {
+
+    padding: 0px 3px;
+}
+
+.feature-box h1 {
+    padding-left: 10px;
+    font-size: 2.2rem;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.features-box-text {
+    padding: 35px 80px;
+    line-height: 40px;
+}
+
+
+#news-company-review {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 25px;
+    padding-bottom: 70px;
+
+}
+
+.news-company-rv-box {
+    background-color: #5025d1;
+    /* border: 2px solid rgb(0, 245, 4); */
+    padding: 30px 25px;
+    margin: 0px 15px;
+    color: white;
+    line-height: 22px;
+}
+
+.nc-rv-box-logo img {
+    width: 224px;
+    padding-bottom: 10px;
+}
+
+
+#agent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding: 20px 0px;
+    padding-top: 120px;
+
+}
+
+.agent-box {
+    /* border: 2px solid red; */
+    margin: 0px 8px;
+
+}
+
+.agent-img img {
+    width: 525px;
+    /* padding-left: 15px; */
+}
+
+.agent-text {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 5px 60px;
+    line-height: 20px;
+
+}
+
+.agent-text p {
+    padding: 15px 0px;
+}
+
+#agent h2 {
+    /* text-align: center; */
+    padding: 15px 60px;
+    margin-top: 10px;
+
+    color: #2f1c6a;
+    font-size: 2.0rem;
+}
+
+.agent-text-1 {
+    display: flex;
+
+}
+
+.agent-text-1 p {
+    line-height: 25px;
+}
+
+
+
+
+#trustpilot-2 {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px 25px;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+
+
+.trustpilot-box-2 {
+    /* border: 2px solid red; */
+    padding: 0px 25px;
+    background-color: #fafbff;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.trustpilot-box-2 img {
+    width: 224px;
+}
+
+.trustpilot-rating-2 {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.trustpilot-rating-2 img {
+    width: 130px;
+    height: 24px;
+    padding-top: 20px;
+}
+
+.trustpilot-rating-2 a {
+    color: #2f1c6a;
+    padding-top: 25px;
+    font-size: 20px;
+}
+
+.trustpilot-logo-2 {
+    padding-bottom: 15px;
+}
+
+
+.trustpilot-words-2-3 {
+    padding-bottom: 20px;
+}
+
+
+.trustpilot-words-2-1 {
+    padding-bottom: 20px;
+}
+
+.clients-stories {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px 50px;
+    margin-top: 50px;
+}
+
+#clients-container h1 {
+    text-align: center;
+    color: #2f1c6a;
+    font-size: 2.3rem;
+
+}
+
+.client-stories-box {
+    border: 1px solid rgb(191, 203, 196);
+    margin: 0px 10px;
+    font-size: 15px;
+    color: #2f1c6a;
+    line-height: 25px;
+
+}
+
+
+
+.ct-s-box-rating p ion-icon {
+    /* color: #673de6; */
+    /* background-color: #2f1c6a; */
+    fill: #5025d1;
+    font-size: 25px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+   
+    
+
+
+}
+.ct-s-box-rating{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.ct-s-box-rating{
+    padding-left: 25px;
+}
+
+.ct-s-box-full-story a {
+    color: #5520f4;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    padding-left: 25px;
+
+
+}
+.ct-s-box-full-story{
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+margin-top: 40px;
+}
+
+.ct-s-box {
+    padding-bottom: 35px;
+}
+
+.client-profile{
+    display: flex;
+    background-color: #f4f5ff;
+    padding: 30px 20px;
+    line-height: 25px;
+    border-top: 1px solid #d5dfff;
+
+}
+
+.client-profile p{
+    padding-left: 10px;
+}
+
+.client-profile p:first-child{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.client-profile img{
+    width: 53px;
+}
+
+
+.ct-s-box-text p{
+    padding-left: 25px;
+
+}
+
+
+.more-client{
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+
+#more-ct{
+
+    background-color: white;
+    border: 2px solid #673de6;
+    color: #673de6;
+    padding: 15px 80px;
+    border-radius: 5px;
+  font-weight: bolder;
+  font-size: 15px;
+  
+
+}
+
+#more-ct:first-child:hover{
+    background-color: #d8dafb;
+    transition: 1s;  
+}
+
+
+.more-client h1{
+   color: #2f1c6a;
+   padding: 50px 0px;
+   font-size: 2rem;
+}
+
+.more-client p{
+    color: #2f1c6a;
+    padding-top: 20px;
+   
+ }
+
+#bottom-buy-btn{
+    background-color: #673de6;
+    border: 2px solid #673de6;
+    color: white;
+    padding: 15px 90px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+#bottom-buy-btn:hover{
+    background-color: #592ae7;
+    transition: 1s;    
+    
+}
+
+.ht-ft-logo img{
+    width: 150px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    font-size: 14px;
+    
+    color: #2f1c6a;
+    padding: 0px 30px;
+    padding-top: 50px;
+}
+
+footer{
+    background-color: #f4f5ff;
+}
+
+
+
+#ft-box-1{
+    display: flex;
+   
+}
+
+#ft-box-2{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    line-height: 25px;
+   
+   
+    
+}
+
+.ht-ab-box{
+    padding: 0px 30px;
+    line-height: 26px
+}
+
+.domain,.information,.company,.legal,.help{
+    padding: 0px 20px;
+    
+}
+
+.ft-hosting{
+    line-height: 26px;
+}
+
+.footer h1{
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+}
+
+.ht-ft-py{
+    margin-top: 30px;
+}
+
+.ht-ft-py-box a{
+    color: #5520f4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.copyright{
+    display: flex;
+    border-top: 1px solid #d5dfff;
+    margin-top: 50px;
+    padding: 20px 25px;
+    justify-content: space-between;
+}
+
+.social a{
+    color: black;
+    font-size: 25px;
+    padding: 0px 5px;
+   
+   
+}
+
+.social{
+
+    right: 0px;
+    position: absolute;
+   
+    
+
+}
+
+
+.solution-box-p-con{
+
+    display: flex;
+
+}
+
+
+.solutions{
+    padding: 0px 20px;
+}
+
+
+
+
