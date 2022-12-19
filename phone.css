@@ -48,18 +48,6 @@
     }
 
 
-    #plan {
-        grid-template-columns: 1fr;
-        margin-top: 45px;
-        border: 1px solid #727586;
-    }
-
-    #plan-box-1,
-    #plan-box-2,
-    #plan-box-3 {
-        margin: auto;
-        border-left: 0px solid;
-    }
 
     #solution {
         grid-template-columns: 1fr;
@@ -78,13 +66,44 @@
     }
 
     #trustpilot {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr  ;
         padding-bottom: 40px;
+        margin: auto;
+      
     }
+
+
+    .trustpilot-box:first-child{
+        display: none;
+       
+       
+       
+        
+    }
+    .trustpilot-box:nth-child(2){
+
+display: none;
+
+    }
+
+
+       
+       
+       
+        
+    
+
+
 
     .trustpilot-box {
         padding: 10px 13px;
+        justify-content: center;
+       
+       
+        
     }
+
+    
 
     .speed {
         grid-template-columns: 1fr;
@@ -207,5 +226,92 @@
         grid-template-columns: 1fr;
         padding: 0px 0px;
     }
+
+    .company-review-box:nth-child(1){
+
+        display: none;
+
+    }
+    .company-review-box:nth-child(2){
+
+        display: none;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+
+    .rating-box {
+        padding: 13px 20px;
+        
+    }
+
+}
+
+
+
+@media screen and (max-width:649px) {
+
+
+
+    #plan {
+        grid-template-columns: 1fr;
+        margin-top: 45px;
+        border: 1px solid #727586;
+    }
+
+    #plan-box-1,
+    #plan-box-2,
+    #plan-box-3 {
+        margin: auto;
+        border: none;
+
+    }
+
+    #plan-box-3{
+        display: none;
+    }
+
+    #plan-box-1{
+        order: 1;
+    }
+
+
+
+}
+
+
+@media screen and (min-width:650px) and (max-width:900px) {
+
+
+
+    #plan {
+        grid-template-columns: 1fr 1fr;
+        margin-top: 45px;
+        border: 1px solid #727586;
+    }
+
+    #plan-box-1,
+    #plan-box-2,
+    #plan-box-3 {
+        margin: auto;
+        border: none;
+       
+
+
+    }
+
+
+    #plan-box-3{
+        display: none;
+    }
+
+
+
+
 
 }
